@@ -2,14 +2,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import SectionHeader from '../ui/SectionHeader';
 
-// ✅ import images properly
 import hero from '../../assets/images/hero_interior.png';
 import kitchen from '../../assets/images/gallery_kitchen.png';
 import bedroom from '../../assets/images/gallery_bedroom.png';
 import bathroom from '../../assets/images/gallery_bathroom.png';
 
 const Gallery = () => {
-  // ✅ use imported variables instead of string paths
+ 
   const images = [
     { src: hero, alt: 'Living Room', height: 'h-[400px]' },
     { src: kitchen, alt: 'Kitchen', height: 'h-[600px]' },
