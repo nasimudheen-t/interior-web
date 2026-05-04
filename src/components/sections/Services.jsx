@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { Layout, PenTool, Home } from 'lucide-react';
 import SectionHeader from '../ui/SectionHeader';
 
+import bathroomImage from '../../assets/images/gallery_bathroom.png';
+
 const Services = () => {
   const services = [
     {
@@ -10,7 +12,7 @@ const Services = () => {
       description: 'Comprehensive spatial planning and architectural modifications to optimize flow, light, and functionality.',
       icon: <Layout size={32} strokeWidth={1.5} />,
       span: 'md:col-span-2 md:row-span-2',
-      image: '/src/assets/images/gallery_bathroom.png'
+      image: bathroomImage
     },
     {
       title: 'Custom Furnishing',
